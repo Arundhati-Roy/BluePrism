@@ -1,0 +1,1341 @@
+﻿<process name="Currency Converter" version="1.0" bpversion="6.9.0.26970" narrative="Converts various currencies to INR and store in Excel" byrefcollection="true" type="object" runmode="Exclusive" preferredid="25bfc381-101b-42f3-9969-5a020207dfc8">
+  <appdef>
+    <element name="Currency Converter">
+      <id>e8222734-dbbb-4b15-96f3-82c2f88ff20d</id>
+      <element name="Amount">
+        <id>6ae09fcd-c45f-4a41-8b66-f130cda13773</id>
+        <type>WebElement</type>
+        <basetype>WebText</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="wX">
+            <ProcessValue datatype="number" value="304" />
+          </attribute>
+          <attribute name="wY">
+            <ProcessValue datatype="number" value="318" />
+          </attribute>
+          <attribute name="wWidth">
+            <ProcessValue datatype="number" value="243" />
+          </attribute>
+          <attribute name="wHeight">
+            <ProcessValue datatype="number" value="24" />
+          </attribute>
+          <attribute name="wClientX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientWidth">
+            <ProcessValue datatype="number" value="243" />
+          </attribute>
+          <attribute name="wClientHeight">
+            <ProcessValue datatype="number" value="24" />
+          </attribute>
+          <attribute name="wOffsetX">
+            <ProcessValue datatype="number" value="305" />
+          </attribute>
+          <attribute name="wOffsetY">
+            <ProcessValue datatype="number" value="228" />
+          </attribute>
+          <attribute name="wOffsetWidth">
+            <ProcessValue datatype="number" value="243" />
+          </attribute>
+          <attribute name="wOffsetHeight">
+            <ProcessValue datatype="number" value="24" />
+          </attribute>
+          <attribute name="wScrollX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollWidth">
+            <ProcessValue datatype="number" value="243" />
+          </attribute>
+          <attribute name="wScrollHeight">
+            <ProcessValue datatype="number" value="24" />
+          </attribute>
+          <attribute name="wElementType" inuse="True">
+            <ProcessValue datatype="text" value="LABEL" />
+          </attribute>
+          <attribute name="wXPath" inuse="True">
+            <ProcessValue datatype="text" value="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/MAIN[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/DIV[1]/LABEL[1]" />
+          </attribute>
+          <attribute name="wCssSelector">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wValue">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPageAddress">
+            <ProcessValue datatype="text" value="https://www.xe.com/currencyconverter/convert/?Amount=1&amp;From=GBP&amp;To=USD" />
+          </attribute>
+          <attribute name="wClass">
+            <ProcessValue datatype="text" value="LabelExtended-jQVGyv kmCby" />
+          </attribute>
+          <attribute name="wChildCount">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wIsEditable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="wStyle">
+            <ProcessValue datatype="text" value="{}" />
+          </attribute>
+          <attribute name="wTabIndex">
+            <ProcessValue datatype="number" value="-1" />
+          </attribute>
+          <attribute name="wInputType">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAccessKey" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wInnerText">
+            <ProcessValue datatype="text" value="Amount" />
+          </attribute>
+          <attribute name="wSource">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wTargetAddress">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAlt">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPattern">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wRel">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wLinkTarget">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPlaceholder">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="From">
+        <id>b6adedad-2154-4c0d-be72-a9b9ac7e1a26</id>
+        <type>WebElement</type>
+        <basetype>WebText</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="wX">
+            <ProcessValue datatype="number" value="577" />
+          </attribute>
+          <attribute name="wY">
+            <ProcessValue datatype="number" value="318" />
+          </attribute>
+          <attribute name="wWidth">
+            <ProcessValue datatype="number" value="243" />
+          </attribute>
+          <attribute name="wHeight">
+            <ProcessValue datatype="number" value="24" />
+          </attribute>
+          <attribute name="wClientX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientWidth">
+            <ProcessValue datatype="number" value="243" />
+          </attribute>
+          <attribute name="wClientHeight">
+            <ProcessValue datatype="number" value="24" />
+          </attribute>
+          <attribute name="wOffsetX">
+            <ProcessValue datatype="number" value="578" />
+          </attribute>
+          <attribute name="wOffsetY">
+            <ProcessValue datatype="number" value="228" />
+          </attribute>
+          <attribute name="wOffsetWidth">
+            <ProcessValue datatype="number" value="243" />
+          </attribute>
+          <attribute name="wOffsetHeight">
+            <ProcessValue datatype="number" value="24" />
+          </attribute>
+          <attribute name="wScrollX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollWidth">
+            <ProcessValue datatype="number" value="243" />
+          </attribute>
+          <attribute name="wScrollHeight">
+            <ProcessValue datatype="number" value="24" />
+          </attribute>
+          <attribute name="wElementType" inuse="True">
+            <ProcessValue datatype="text" value="LABEL" />
+          </attribute>
+          <attribute name="wXPath" inuse="True">
+            <ProcessValue datatype="text" value="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/MAIN[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/DIV[2]/LABEL[1]" />
+          </attribute>
+          <attribute name="wCssSelector">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wValue">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPageAddress">
+            <ProcessValue datatype="text" value="https://www.xe.com/currencyconverter/convert/?Amount=1&amp;From=GBP&amp;To=USD" />
+          </attribute>
+          <attribute name="wClass">
+            <ProcessValue datatype="text" value="LabelExtended-jQVGyv kmCby" />
+          </attribute>
+          <attribute name="wChildCount">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wIsEditable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="wStyle">
+            <ProcessValue datatype="text" value="{}" />
+          </attribute>
+          <attribute name="wTabIndex">
+            <ProcessValue datatype="number" value="-1" />
+          </attribute>
+          <attribute name="wInputType">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAccessKey" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wInnerText">
+            <ProcessValue datatype="text" value="From" />
+          </attribute>
+          <attribute name="wSource">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wTargetAddress">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAlt">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPattern">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wRel">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wLinkTarget">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPlaceholder">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="To">
+        <id>55778c6e-cb7b-435b-b606-88e2331c31e9</id>
+        <type>WebElement</type>
+        <basetype>WebText</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="wX">
+            <ProcessValue datatype="number" value="901" />
+          </attribute>
+          <attribute name="wY">
+            <ProcessValue datatype="number" value="318" />
+          </attribute>
+          <attribute name="wWidth">
+            <ProcessValue datatype="number" value="243" />
+          </attribute>
+          <attribute name="wHeight">
+            <ProcessValue datatype="number" value="24" />
+          </attribute>
+          <attribute name="wClientX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientWidth">
+            <ProcessValue datatype="number" value="243" />
+          </attribute>
+          <attribute name="wClientHeight">
+            <ProcessValue datatype="number" value="24" />
+          </attribute>
+          <attribute name="wOffsetX">
+            <ProcessValue datatype="number" value="901" />
+          </attribute>
+          <attribute name="wOffsetY">
+            <ProcessValue datatype="number" value="228" />
+          </attribute>
+          <attribute name="wOffsetWidth">
+            <ProcessValue datatype="number" value="243" />
+          </attribute>
+          <attribute name="wOffsetHeight">
+            <ProcessValue datatype="number" value="24" />
+          </attribute>
+          <attribute name="wScrollX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollWidth">
+            <ProcessValue datatype="number" value="243" />
+          </attribute>
+          <attribute name="wScrollHeight">
+            <ProcessValue datatype="number" value="24" />
+          </attribute>
+          <attribute name="wElementType" inuse="True">
+            <ProcessValue datatype="text" value="LABEL" />
+          </attribute>
+          <attribute name="wXPath" inuse="True">
+            <ProcessValue datatype="text" value="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/MAIN[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/DIV[3]/LABEL[1]" />
+          </attribute>
+          <attribute name="wCssSelector">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wValue">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPageAddress">
+            <ProcessValue datatype="text" value="https://www.xe.com/currencyconverter/convert/?Amount=1&amp;From=GBP&amp;To=USD" />
+          </attribute>
+          <attribute name="wClass">
+            <ProcessValue datatype="text" value="LabelExtended-jQVGyv kmCby" />
+          </attribute>
+          <attribute name="wChildCount">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wIsEditable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="wStyle">
+            <ProcessValue datatype="text" value="{}" />
+          </attribute>
+          <attribute name="wTabIndex">
+            <ProcessValue datatype="number" value="-1" />
+          </attribute>
+          <attribute name="wInputType">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAccessKey" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wInnerText">
+            <ProcessValue datatype="text" value="To" />
+          </attribute>
+          <attribute name="wSource">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wTargetAddress">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAlt">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPattern">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wRel">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wLinkTarget">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPlaceholder">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Amount cursor">
+        <id>9ee50ca8-9dd4-47b3-9b14-c87f3cb3f0ba</id>
+        <type>WebTextEdit</type>
+        <basetype>WebTextEdit</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="wX">
+            <ProcessValue datatype="number" value="294" />
+          </attribute>
+          <attribute name="wY">
+            <ProcessValue datatype="number" value="347" />
+          </attribute>
+          <attribute name="wWidth">
+            <ProcessValue datatype="number" value="263" />
+          </attribute>
+          <attribute name="wHeight">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wClientX">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="wClientY">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="wClientWidth">
+            <ProcessValue datatype="number" value="260" />
+          </attribute>
+          <attribute name="wClientHeight">
+            <ProcessValue datatype="number" value="57" />
+          </attribute>
+          <attribute name="wOffsetX">
+            <ProcessValue datatype="number" value="295" />
+          </attribute>
+          <attribute name="wOffsetY">
+            <ProcessValue datatype="number" value="257" />
+          </attribute>
+          <attribute name="wOffsetWidth">
+            <ProcessValue datatype="number" value="263" />
+          </attribute>
+          <attribute name="wOffsetHeight">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wScrollX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollWidth">
+            <ProcessValue datatype="number" value="260" />
+          </attribute>
+          <attribute name="wScrollHeight">
+            <ProcessValue datatype="number" value="57" />
+          </attribute>
+          <attribute name="wId" inuse="True">
+            <ProcessValue datatype="text" value="amount" />
+          </attribute>
+          <attribute name="wName" inuse="True">
+            <ProcessValue datatype="text" value="Amount" />
+          </attribute>
+          <attribute name="wElementType" inuse="True">
+            <ProcessValue datatype="text" value="INPUT" />
+          </attribute>
+          <attribute name="wXPath" inuse="True">
+            <ProcessValue datatype="text" value="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/MAIN[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/DIV[1]/INPUT[1]" />
+          </attribute>
+          <attribute name="wCssSelector">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wValue">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPageAddress">
+            <ProcessValue datatype="text" value="https://www.xe.com/currencyconverter/convert/?Amount=1&amp;From=GBP&amp;To=USD" />
+          </attribute>
+          <attribute name="wClass">
+            <ProcessValue datatype="text" value="AmountField-jcNifw gwdqEd focus-visible" />
+          </attribute>
+          <attribute name="wChildCount">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wIsEditable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="wStyle">
+            <ProcessValue datatype="text" value="{}" />
+          </attribute>
+          <attribute name="wTabIndex">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wInputType">
+            <ProcessValue datatype="text" value="text" />
+          </attribute>
+          <attribute name="wAccessKey" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wInnerText">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wSource">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wTargetAddress">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAlt">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPattern">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wRel">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wLinkTarget">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPlaceholder">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Enter">
+        <id>188760ce-ecc6-40ed-874a-b67c7ac55a4a</id>
+        <type>WebElement</type>
+        <basetype>WebElement</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="wX">
+            <ProcessValue datatype="number" value="1164" />
+          </attribute>
+          <attribute name="wY">
+            <ProcessValue datatype="number" value="347" />
+          </attribute>
+          <attribute name="wWidth">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wHeight">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wClientX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientWidth">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wClientHeight">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wOffsetX">
+            <ProcessValue datatype="number" value="1165" />
+          </attribute>
+          <attribute name="wOffsetY">
+            <ProcessValue datatype="number" value="257" />
+          </attribute>
+          <attribute name="wOffsetWidth">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wOffsetHeight">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wScrollX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollWidth">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wScrollHeight">
+            <ProcessValue datatype="number" value="60" />
+          </attribute>
+          <attribute name="wElementType" inuse="True">
+            <ProcessValue datatype="text" value="BUTTON" />
+          </attribute>
+          <attribute name="wXPath" inuse="True">
+            <ProcessValue datatype="text" value="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/MAIN[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/BUTTON[2]" />
+          </attribute>
+          <attribute name="wCssSelector">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wValue">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPageAddress">
+            <ProcessValue datatype="text" value="https://www.xe.com/currencyconverter/convert/?Amount=1&amp;From=GBP&amp;To=USD" />
+          </attribute>
+          <attribute name="wClass">
+            <ProcessValue datatype="text" value="OldButton-jvvAjr SubmitButton-fCPQGw epSzca submitButton" />
+          </attribute>
+          <attribute name="wChildCount">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="wIsEditable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="wStyle">
+            <ProcessValue datatype="text" value="{}" />
+          </attribute>
+          <attribute name="wTabIndex">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wInputType">
+            <ProcessValue datatype="text" value="submit" />
+          </attribute>
+          <attribute name="wAccessKey" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wInnerText">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wSource">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wTargetAddress">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAlt">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPattern">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wRel">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wLinkTarget">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPlaceholder">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Result">
+        <id>fe813073-d739-416a-8323-ef81050525f1</id>
+        <type>WebElement</type>
+        <basetype>WebElement</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="wX">
+            <ProcessValue datatype="number" value="557" />
+          </attribute>
+          <attribute name="wY">
+            <ProcessValue datatype="number" value="468" />
+          </attribute>
+          <attribute name="wWidth">
+            <ProcessValue datatype="number" value="331" />
+          </attribute>
+          <attribute name="wHeight">
+            <ProcessValue datatype="number" value="92" />
+          </attribute>
+          <attribute name="wClientX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientWidth">
+            <ProcessValue datatype="number" value="332" />
+          </attribute>
+          <attribute name="wClientHeight">
+            <ProcessValue datatype="number" value="93" />
+          </attribute>
+          <attribute name="wOffsetX">
+            <ProcessValue datatype="number" value="558" />
+          </attribute>
+          <attribute name="wOffsetY">
+            <ProcessValue datatype="number" value="378" />
+          </attribute>
+          <attribute name="wOffsetWidth">
+            <ProcessValue datatype="number" value="332" />
+          </attribute>
+          <attribute name="wOffsetHeight">
+            <ProcessValue datatype="number" value="93" />
+          </attribute>
+          <attribute name="wScrollX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollWidth">
+            <ProcessValue datatype="number" value="332" />
+          </attribute>
+          <attribute name="wScrollHeight">
+            <ProcessValue datatype="number" value="110" />
+          </attribute>
+          <attribute name="wElementType" inuse="True">
+            <ProcessValue datatype="text" value="SPAN" />
+          </attribute>
+          <attribute name="wXPath" inuse="True">
+            <ProcessValue datatype="text" value="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/MAIN[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/SPAN[1]" />
+          </attribute>
+          <attribute name="wCssSelector">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wValue">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPageAddress" inuse="True">
+            <ProcessValue datatype="text" value="https://www.xe.com/currencyconverter/convert/?Amount=1&amp;From=GBP&amp;To=USD" />
+          </attribute>
+          <attribute name="wClass">
+            <ProcessValue datatype="text" value="converterresult-toAmount" />
+          </attribute>
+          <attribute name="wChildCount">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wIsEditable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="wStyle">
+            <ProcessValue datatype="text" value="{}" />
+          </attribute>
+          <attribute name="wTabIndex">
+            <ProcessValue datatype="number" value="-1" />
+          </attribute>
+          <attribute name="wInputType">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAccessKey" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wInnerText">
+            <ProcessValue datatype="text" value="1.32507" />
+          </attribute>
+          <attribute name="wSource">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wTargetAddress">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAlt">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPattern">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wRel">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wLinkTarget">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPlaceholder">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="From cursor">
+        <id>2ad0aefa-cd3b-4f92-82cd-6bd7b17237ed</id>
+        <type>WebTextEdit</type>
+        <basetype>WebTextEdit</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="wX">
+            <ProcessValue datatype="number" value="577" />
+          </attribute>
+          <attribute name="wY">
+            <ProcessValue datatype="number" value="361" />
+          </attribute>
+          <attribute name="wWidth">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="wHeight">
+            <ProcessValue datatype="number" value="30" />
+          </attribute>
+          <attribute name="wClientX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientWidth">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="wClientHeight">
+            <ProcessValue datatype="number" value="30" />
+          </attribute>
+          <attribute name="wOffsetX">
+            <ProcessValue datatype="number" value="10" />
+          </attribute>
+          <attribute name="wOffsetY">
+            <ProcessValue datatype="number" value="9" />
+          </attribute>
+          <attribute name="wOffsetWidth">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="wOffsetHeight">
+            <ProcessValue datatype="number" value="30" />
+          </attribute>
+          <attribute name="wScrollX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollWidth">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="wScrollHeight">
+            <ProcessValue datatype="number" value="30" />
+          </attribute>
+          <attribute name="wId" inuse="True">
+            <ProcessValue datatype="text" value="from" />
+          </attribute>
+          <attribute name="wElementType" inuse="True">
+            <ProcessValue datatype="text" value="INPUT" />
+          </attribute>
+          <attribute name="wXPath" inuse="True">
+            <ProcessValue datatype="text" value="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/MAIN[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/INPUT[1]" />
+          </attribute>
+          <attribute name="wCssSelector">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wValue">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPageAddress">
+            <ProcessValue datatype="text" value="https://www.xe.com/currencyconverter/convert/?Amount=1&amp;From=GBP&amp;To=USD" />
+          </attribute>
+          <attribute name="wClass">
+            <ProcessValue datatype="text" value="focus-visible" />
+          </attribute>
+          <attribute name="wChildCount">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wIsEditable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="wStyle">
+            <ProcessValue datatype="text" value="{&quot;0&quot;:&quot;box-sizing&quot;,&quot;1&quot;:&quot;width&quot;,&quot;2&quot;:&quot;background-color&quot;,&quot;3&quot;:&quot;background-position-x&quot;,&quot;4&quot;:&quot;background-position-y&quot;,&quot;5&quot;:&quot;background-repeat&quot;,&quot;6&quot;:&quot;background-attachment&quot;,&quot;7&quot;:&quot;background-image&quot;,&quot;8&quot;:&quot;background-size&quot;,&quot;9&quot;:&quot;background-origin&quot;,&quot;10&quot;:&quot;background-clip&quot;,&quot;11&quot;:&quot;border-top-color&quot;,&quot;12&quot;:&quot;border-top-style&quot;,&quot;13&quot;:&quot;border-top-width&quot;,&quot;14&quot;:&quot;border-right-color&quot;,&quot;15&quot;:&quot;border-right-style&quot;,&quot;16&quot;:&quot;border-right-width&quot;,&quot;17&quot;:&quot;border-bottom-color&quot;,&quot;18&quot;:&quot;border-bottom-style&quot;,&quot;19&quot;:&quot;border-bottom-width&quot;,&quot;20&quot;:&quot;border-left-color&quot;,&quot;21&quot;:&quot;border-left-style&quot;,&quot;22&quot;:&quot;border-left-width&quot;,&quot;23&quot;:&quot;border-image-outset&quot;,&quot;24&quot;:&quot;border-image-repeat&quot;,&quot;25&quot;:&quot;border-image-slice&quot;,&quot;26&quot;:&quot;border-image-source&quot;,&quot;27&quot;:&quot;border-image-width&quot;,&quot;28&quot;:&quot;font-size&quot;,&quot;29&quot;:&quot;opacity&quot;,&quot;30&quot;:&quot;outline-color&quot;,&quot;31&quot;:&quot;outline-style&quot;,&quot;32&quot;:&quot;outline-width&quot;,&quot;33&quot;:&quot;padding-top&quot;,&quot;34&quot;:&quot;padding-right&quot;,&quot;35&quot;:&quot;padding-bottom&quot;,&quot;36&quot;:&quot;padding-left&quot;,&quot;37&quot;:&quot;color&quot;}" />
+          </attribute>
+          <attribute name="wTabIndex">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wInputType">
+            <ProcessValue datatype="text" value="text" />
+          </attribute>
+          <attribute name="wAccessKey" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wInnerText">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wSource">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wTargetAddress">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAlt">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPattern">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wRel">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wLinkTarget">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPlaceholder">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="To cursor">
+        <id>c5ef2fde-5955-463c-b97a-72a36bf2eeda</id>
+        <type>WebTextEdit</type>
+        <basetype>WebTextEdit</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="wX">
+            <ProcessValue datatype="number" value="901" />
+          </attribute>
+          <attribute name="wY">
+            <ProcessValue datatype="number" value="361" />
+          </attribute>
+          <attribute name="wWidth">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="wHeight">
+            <ProcessValue datatype="number" value="30" />
+          </attribute>
+          <attribute name="wClientX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wClientWidth">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="wClientHeight">
+            <ProcessValue datatype="number" value="30" />
+          </attribute>
+          <attribute name="wOffsetX">
+            <ProcessValue datatype="number" value="10" />
+          </attribute>
+          <attribute name="wOffsetY">
+            <ProcessValue datatype="number" value="9" />
+          </attribute>
+          <attribute name="wOffsetWidth">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="wOffsetHeight">
+            <ProcessValue datatype="number" value="30" />
+          </attribute>
+          <attribute name="wScrollX">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollY">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wScrollWidth">
+            <ProcessValue datatype="number" value="2" />
+          </attribute>
+          <attribute name="wScrollHeight">
+            <ProcessValue datatype="number" value="30" />
+          </attribute>
+          <attribute name="wId" inuse="True">
+            <ProcessValue datatype="text" value="to" />
+          </attribute>
+          <attribute name="wElementType" inuse="True">
+            <ProcessValue datatype="text" value="INPUT" />
+          </attribute>
+          <attribute name="wXPath" inuse="True">
+            <ProcessValue datatype="text" value="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/MAIN[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/INPUT[1]" />
+          </attribute>
+          <attribute name="wCssSelector">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wValue">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPageAddress">
+            <ProcessValue datatype="text" value="https://www.xe.com/currencyconverter/convert/?Amount=1&amp;From=GBP&amp;To=USD" />
+          </attribute>
+          <attribute name="wClass">
+            <ProcessValue datatype="text" value="focus-visible" />
+          </attribute>
+          <attribute name="wChildCount">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wIsEditable">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="wStyle">
+            <ProcessValue datatype="text" value="{&quot;0&quot;:&quot;box-sizing&quot;,&quot;1&quot;:&quot;width&quot;,&quot;2&quot;:&quot;background-color&quot;,&quot;3&quot;:&quot;background-position-x&quot;,&quot;4&quot;:&quot;background-position-y&quot;,&quot;5&quot;:&quot;background-repeat&quot;,&quot;6&quot;:&quot;background-attachment&quot;,&quot;7&quot;:&quot;background-image&quot;,&quot;8&quot;:&quot;background-size&quot;,&quot;9&quot;:&quot;background-origin&quot;,&quot;10&quot;:&quot;background-clip&quot;,&quot;11&quot;:&quot;border-top-color&quot;,&quot;12&quot;:&quot;border-top-style&quot;,&quot;13&quot;:&quot;border-top-width&quot;,&quot;14&quot;:&quot;border-right-color&quot;,&quot;15&quot;:&quot;border-right-style&quot;,&quot;16&quot;:&quot;border-right-width&quot;,&quot;17&quot;:&quot;border-bottom-color&quot;,&quot;18&quot;:&quot;border-bottom-style&quot;,&quot;19&quot;:&quot;border-bottom-width&quot;,&quot;20&quot;:&quot;border-left-color&quot;,&quot;21&quot;:&quot;border-left-style&quot;,&quot;22&quot;:&quot;border-left-width&quot;,&quot;23&quot;:&quot;border-image-outset&quot;,&quot;24&quot;:&quot;border-image-repeat&quot;,&quot;25&quot;:&quot;border-image-slice&quot;,&quot;26&quot;:&quot;border-image-source&quot;,&quot;27&quot;:&quot;border-image-width&quot;,&quot;28&quot;:&quot;font-size&quot;,&quot;29&quot;:&quot;opacity&quot;,&quot;30&quot;:&quot;outline-color&quot;,&quot;31&quot;:&quot;outline-style&quot;,&quot;32&quot;:&quot;outline-width&quot;,&quot;33&quot;:&quot;padding-top&quot;,&quot;34&quot;:&quot;padding-right&quot;,&quot;35&quot;:&quot;padding-bottom&quot;,&quot;36&quot;:&quot;padding-left&quot;,&quot;37&quot;:&quot;color&quot;}" />
+          </attribute>
+          <attribute name="wTabIndex">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="wInputType">
+            <ProcessValue datatype="text" value="text" />
+          </attribute>
+          <attribute name="wAccessKey" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wInnerText">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wSource">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wTargetAddress">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wAlt">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPattern">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wRel">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wLinkTarget">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="wPlaceholder">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="MatchIndex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+        </attributes>
+      </element>
+      <type>Application</type>
+      <basetype>Application</basetype>
+      <datatype>unknown</datatype>
+      <diagnose>False</diagnose>
+    </element>
+    <apptypeinfo>
+      <id>BrowserLaunch</id>
+      <parameters>
+        <parameter>
+          <name>Path</name>
+          <value>C:\Program Files\Mozilla Firefox\firefox.exe</value>
+        </parameter>
+        <parameter>
+          <name>CommandLineParams</name>
+          <value>https://www.xe.com/currencyconverter/convert/?Amount=1&amp;From=GBP&amp;To=USD</value>
+        </parameter>
+        <parameter>
+          <name>ProcessMode</name>
+          <value>Internal</value>
+        </parameter>
+        <parameter>
+          <name>ExternalProcessTimeout</name>
+          <value>0</value>
+        </parameter>
+      </parameters>
+    </apptypeinfo>
+  </appdef>
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <stage stageid="3278899f-853f-4756-bbc6-85dd02cc2886" name="Currency Converter" type="SubSheetInfo">
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="63882c50-0af7-4143-a54a-8f7b80543dc7" name="End" type="End">
+    <loginhibit />
+    <display x="-30" y="195" />
+  </stage>
+  <stage stageid="c61e1f8c-70fc-403f-8257-f14484a14902" name="Click on amount box" type="Navigate">
+    <loginhibit />
+    <narrative>Clicking the search bar</narrative>
+    <display x="-30" y="-15" />
+    <onsuccess>1491cc5a-2065-4a03-809c-28aa6674eb0a</onsuccess>
+    <step>
+      <element id="6ae09fcd-c45f-4a41-8b66-f130cda13773">
+        <elementparameter>
+          <name>wXPath</name>
+          <expression>[Search bar path]</expression>
+          <datatype>text</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+      </element>
+      <action>
+        <id>WebClick</id>
+        <arguments>
+          <argument>
+            <id>trackingid</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="6fef874d-4a7b-4260-8bfd-cc7128574392" name="Enter" type="Navigate">
+    <loginhibit />
+    <narrative>Click enter to send</narrative>
+    <display x="60" y="105" />
+    <onsuccess>27ca7d1c-ed90-4dce-a757-287b1fd50c60</onsuccess>
+    <step>
+      <element id="188760ce-ecc6-40ed-874a-b67c7ac55a4a">
+        <elementparameter>
+          <name>wXPath</name>
+          <expression>[Drop down path]</expression>
+          <datatype>text</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+      </element>
+      <action>
+        <id>WebClick</id>
+        <arguments>
+          <argument>
+            <id>trackingid</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>newtext</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="2e17572e-5470-49f4-bdbe-fcb920a2a3a9" name="Launch" type="Navigate">
+    <loginhibit />
+    <display x="60" y="-135" />
+    <onsuccess>831c7892-3e2f-48a4-9a3c-cdf820c1e814</onsuccess>
+    <step>
+      <element id="e8222734-dbbb-4b15-96f3-82c2f88ff20d" />
+      <action>
+        <id>Launch</id>
+        <arguments>
+          <argument>
+            <id>Path</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>CommandLineParams</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ProcessMode</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+        <outputs>
+          <output>
+            <id>trackingid</id>
+            <value>
+            </value>
+          </output>
+        </outputs>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="1491cc5a-2065-4a03-809c-28aa6674eb0a" name="Writer1" type="Write">
+    <loginhibit />
+    <display x="-30" y="30" />
+    <onsuccess>b8ceaee4-74d9-4a31-9f64-3e7677637d45</onsuccess>
+    <step expr="[Data.Amount]">
+      <element id="9ee50ca8-9dd4-47b3-9b14-c87f3cb3f0ba" />
+      <action>
+        <id>WebWrite</id>
+        <arguments>
+          <argument>
+            <id>trackingid</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="464b9f1f-7946-4507-9a89-08023b2bfcbf" name="Amount to be converted" type="Data">
+    <loginhibit />
+    <display x="330" y="-30" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">789</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="b8ceaee4-74d9-4a31-9f64-3e7677637d45" name="Convert from" type="Navigate">
+    <loginhibit />
+    <narrative>Click on Convert from</narrative>
+    <display x="60" y="-15" />
+    <onsuccess>8ae06c45-b3b5-40f5-b7f7-9ad2197c4512</onsuccess>
+    <step>
+      <element id="b6adedad-2154-4c0d-be72-a9b9ac7e1a26" />
+      <action>
+        <id>WebClick</id>
+        <arguments>
+          <argument>
+            <id>trackingid</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="fc4d4307-2097-49b0-a8e1-c0f2626d7c9b" name="Time Out1" type="WaitEnd">
+    <loginhibit />
+    <display x="-30" y="-90" w="30" h="30" />
+    <onsuccess>eed06e82-266e-42c5-8b49-3002a4d6db97</onsuccess>
+    <groupid>b981eb2b-9799-40c6-83fe-acd619f65d17</groupid>
+  </stage>
+  <stage stageid="831c7892-3e2f-48a4-9a3c-cdf820c1e814" name="Wait1" type="WaitStart">
+    <loginhibit />
+    <display x="-30" y="-135" w="30" h="30" />
+    <groupid>b981eb2b-9799-40c6-83fe-acd619f65d17</groupid>
+    <choices />
+    <timeout>10</timeout>
+  </stage>
+  <stage stageid="8ae06c45-b3b5-40f5-b7f7-9ad2197c4512" name="Writer2" type="Write">
+    <loginhibit />
+    <display x="60" y="30" />
+    <onsuccess>74bfec5c-fb92-45ff-91df-7e331be47339</onsuccess>
+    <step expr="[Data.From]">
+      <element id="2ad0aefa-cd3b-4f92-82cd-6bd7b17237ed" />
+      <action>
+        <id>WebWrite</id>
+        <arguments>
+          <argument>
+            <id>trackingid</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="6c7bfcc5-69fd-402a-a075-7a7f7a8ab748" name="Data1" type="Data">
+    <loginhibit />
+    <display x="330" y="30" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">USD</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="0df0c37d-abd9-4a1d-9996-df80fb3e79d0" name="Data2" type="Data">
+    <loginhibit />
+    <display x="330" y="75" />
+    <datatype>unknown</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="23e17552-1a37-4e48-a998-ad963a649c3a" name="Start" type="Start">
+    <loginhibit />
+    <display x="60" y="-225" />
+    <onsuccess>8314e2dd-ed2a-4146-9b4d-5e2a4857e811</onsuccess>
+  </stage>
+  <stage stageid="8314e2dd-ed2a-4146-9b4d-5e2a4857e811" name="MS Excel VBO::Create Instance" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="165" y="-225" />
+    <inputs>
+      <input type="flag" name="Enable Events" friendlyname="Enable Events" narrative="Flag to indicate that events should be enabled / disabled on the attached instance - defaulted to True" expr="True" />
+    </inputs>
+    <outputs>
+      <output type="number" name="handle" friendlyname="handle" narrative="An integer which can be used to identify the created instance in subsequent actions" stage="handle" />
+    </outputs>
+    <onsuccess>9dd5fc01-ae7f-44a8-b80a-03ec270249df</onsuccess>
+    <resource object="MS Excel VBO" action="Create Instance" />
+  </stage>
+  <stage stageid="9dd5fc01-ae7f-44a8-b80a-03ec270249df" name="MS Excel VBO::Open Workbook" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="165" y="-180" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the required workbook should be opened. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="File name" friendlyname="File name" narrative="The path and name of the file which should be opened." expr="&quot;C:\Users\priyadarshini roy\Desktop\Currency Converter.xlsx&quot;&#xA;" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name used by Excel to identify the workbook - usually this is the file name (without the path)." stage="Workbook Name" />
+    </outputs>
+    <onsuccess>c8309335-80c0-41eb-a786-593ef6482784</onsuccess>
+    <resource object="MS Excel VBO" action="Open Workbook" />
+  </stage>
+  <stage stageid="c8309335-80c0-41eb-a786-593ef6482784" name="MS Excel VBO::Get Worksheet As Collection" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="165" y="-135" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the worksheet which should be retrieved resides. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name of the workbook which contains the sheet required. The default empty text indicates the currently active workbook on the specified instance." expr="[Workbook Name]" />
+      <input type="text" name="Worksheet Name" friendlyname="Worksheet Name" narrative="The name of the worksheet within the specified workbook which should be written to a collection. The default empty text indicates the currently active worksheet within the specified workbook." expr="&quot;Sheet1&quot;" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Data" friendlyname="Data" narrative="The collection containing the data from the specified worksheet - the column IDs will be gleaned from the first row on the sheet being retrieved." stage="Data" />
+    </outputs>
+    <onsuccess>2e17572e-5470-49f4-bdbe-fcb920a2a3a9</onsuccess>
+    <resource object="MS Excel VBO" action="Get Worksheet As Collection" />
+  </stage>
+  <stage stageid="b360d94a-cdbd-4218-9fb3-69536621c68f" name="handle" type="Data">
+    <display x="345" y="-225" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="60bf4eae-c5df-4c56-a6f0-bebe0eb6040b" name="Workbook Name" type="Data">
+    <display x="345" y="-180" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="314d8954-ebae-4152-8713-dbe2008f20ba" name="Data" type="Collection">
+    <display x="345" y="-135" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+    <collectioninfo>
+      <field name="Amount" type="text" />
+      <field name="To" type="text" />
+      <field name="From" type="text" />
+      <field name="Result" type="text" />
+    </collectioninfo>
+  </stage>
+  <stage stageid="eed06e82-266e-42c5-8b49-3002a4d6db97" name="Loop Start1" type="LoopStart">
+    <loginhibit />
+    <display x="60" y="-90" />
+    <onsuccess>c61e1f8c-70fc-403f-8257-f14484a14902</onsuccess>
+    <groupid>ae8f7f8d-8d31-41c4-85d9-e3fd0ca70d8a</groupid>
+    <looptype>ForEach</looptype>
+    <loopdata>Data</loopdata>
+  </stage>
+  <stage stageid="ef9b1ffd-8018-4a00-9311-42a7b4fd6452" name="Loop End1" type="LoopEnd">
+    <loginhibit />
+    <display x="60" y="195" />
+    <onsuccess>63882c50-0af7-4143-a54a-8f7b80543dc7</onsuccess>
+    <groupid>ae8f7f8d-8d31-41c4-85d9-e3fd0ca70d8a</groupid>
+  </stage>
+  <stage stageid="74bfec5c-fb92-45ff-91df-7e331be47339" name="Convert to" type="Navigate">
+    <loginhibit />
+    <narrative>Click on Convert</narrative>
+    <display x="150" y="-15" />
+    <onsuccess>e377b6ce-8b07-4bbd-ad84-28b1d5c9ccb8</onsuccess>
+  </stage>
+  <stage stageid="e377b6ce-8b07-4bbd-ad84-28b1d5c9ccb8" name="Writer3" type="Write">
+    <loginhibit />
+    <display x="150" y="30" />
+    <onsuccess>6fef874d-4a7b-4260-8bfd-cc7128574392</onsuccess>
+    <step expr="[Data.To]">
+      <element id="c5ef2fde-5955-463c-b97a-72a36bf2eeda" />
+      <action>
+        <id>WebWrite</id>
+        <arguments>
+          <argument>
+            <id>trackingid</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="74e1a30c-f64e-4a59-ba0b-5e74a0dbf4c7" name="Time Out2" type="WaitEnd">
+    <loginhibit />
+    <display x="150" y="150" w="30" h="30" />
+    <onsuccess>45a62a5f-18da-4bfd-bde3-799ed67c585b</onsuccess>
+    <groupid>1a977815-2dae-4897-bb78-9c65d47a9ca7</groupid>
+  </stage>
+  <stage stageid="27ca7d1c-ed90-4dce-a757-287b1fd50c60" name="Wait2" type="WaitStart">
+    <loginhibit />
+    <display x="150" y="105" w="30" h="30" />
+    <groupid>1a977815-2dae-4897-bb78-9c65d47a9ca7</groupid>
+    <choices />
+    <timeout>10</timeout>
+  </stage>
+  <stage stageid="45a62a5f-18da-4bfd-bde3-799ed67c585b" name="Reader1" type="Read">
+    <loginhibit />
+    <display x="60" y="150" />
+    <onsuccess>ef9b1ffd-8018-4a00-9311-42a7b4fd6452</onsuccess>
+    <step stage="Data.Result">
+      <element id="fe813073-d739-416a-8323-ef81050525f1" />
+      <action>
+        <id>WebGetText</id>
+        <arguments>
+          <argument>
+            <id>trackingid</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+</process>
