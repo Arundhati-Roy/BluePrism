@@ -1,0 +1,224 @@
+﻿<process name="Switch case" version="1.0" bpversion="6.9.0.26970" narrative="Swtich case working" byrefcollection="true" type="object" runmode="Exclusive" preferredid="7af07da8-0692-42a7-ae2f-441b908cb1be">
+  <appdef>
+    <element name="Application Root">
+      <id>e3545ab3-9391-4516-ae5d-cc354074388f</id>
+      <type>Application</type>
+      <basetype>Application</basetype>
+      <datatype>unknown</datatype>
+      <diagnose>False</diagnose>
+    </element>
+  </appdef>
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="afa4c6b7-b037-4f12-9c3a-9a33ce7b7049" type="CleanUp" published="True">
+    <name>Clean Up</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="157112f6-170b-45ed-a358-3cf6d93003a3" type="Normal" published="False">
+    <name>Action 1</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>-18</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="a71fdf48-3abf-41a3-ac37-74476275d5f1" name="Start" type="Start">
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>61246af2-353f-4b05-9def-ce189ef0d1cc</onsuccess>
+  </stage>
+  <stage stageid="61246af2-353f-4b05-9def-ce189ef0d1cc" name="End" type="End">
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="d4a45965-740b-41c8-af6c-9588dd514247" name="Stage1" type="ProcessInfo">
+    <display x="-195" y="-105" w="150" h="90" />
+    <references>
+      <reference>System.dll</reference>
+      <reference>System.Data.dll</reference>
+      <reference>System.Xml.dll</reference>
+      <reference>System.Drawing.dll</reference>
+    </references>
+    <imports>
+      <import>System</import>
+      <import>System.Drawing</import>
+      <import>System.Data</import>
+    </imports>
+    <language>visualbasic</language>
+    <globalcode><![CDATA[]]></globalcode>
+    <code><![CDATA[]]></code>
+  </stage>
+  <stage stageid="c9e97910-3a9d-4a4a-a7f3-0a811ff9ca38" name="Clean Up" type="SubSheetInfo">
+    <subsheetid>afa4c6b7-b037-4f12-9c3a-9a33ce7b7049</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="051c334b-a999-4ec6-ac17-441788f9c72e" name="Start" type="Start">
+    <subsheetid>afa4c6b7-b037-4f12-9c3a-9a33ce7b7049</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>8e0f8a66-1b68-4c9d-8ec3-efd8027da514</onsuccess>
+  </stage>
+  <stage stageid="8e0f8a66-1b68-4c9d-8ec3-efd8027da514" name="End" type="End">
+    <subsheetid>afa4c6b7-b037-4f12-9c3a-9a33ce7b7049</subsheetid>
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="72c7fbc2-6c8c-4937-96a3-516ef7146c09" name="Action 1" type="SubSheetInfo">
+    <subsheetid>157112f6-170b-45ed-a358-3cf6d93003a3</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="bdee06d6-c8c8-48c7-b723-d8bab22dea56" name="Start" type="Start">
+    <subsheetid>157112f6-170b-45ed-a358-3cf6d93003a3</subsheetid>
+    <loginhibit />
+    <display x="0" y="-210" />
+    <onsuccess>157febc5-afe8-49c8-ae72-f45934efa273</onsuccess>
+  </stage>
+  <stage stageid="aa48f77f-defd-41bb-995a-51b02a6949c7" name="End" type="End">
+    <subsheetid>157112f6-170b-45ed-a358-3cf6d93003a3</subsheetid>
+    <loginhibit />
+    <display x="360" y="-30" />
+  </stage>
+  <stage stageid="0f6e1b70-ac94-48ed-a278-977d9ecd5561" name="" type="Note">
+    <subsheetid>afa4c6b7-b037-4f12-9c3a-9a33ce7b7049</subsheetid>
+    <narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative>
+    <display x="-180" y="60" w="180" h="230" />
+  </stage>
+  <stage stageid="462e544a-fe18-42c6-8504-bc6f67578e05" name="" type="Note">
+    <narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
+    <display x="-180" y="60" w="180" h="230" />
+  </stage>
+  <stage stageid="157febc5-afe8-49c8-ae72-f45934efa273" name="Choice1" type="ChoiceStart">
+    <subsheetid>157112f6-170b-45ed-a358-3cf6d93003a3</subsheetid>
+    <loginhibit />
+    <display x="0" y="-165" />
+    <groupid>f6822713-9da9-4795-bbf3-fc8bfd093806</groupid>
+    <choices>
+      <choice expression="[Data1] &gt; 90">
+        <name>A</name>
+        <distance>42.5</distance>
+        <ontrue>25ed6a1e-3af2-4b40-a437-efa204f69f3c</ontrue>
+      </choice>
+      <choice expression="[Data1] &lt; 90 AND&#xA;[Data1] &gt;= 80&#xA;">
+        <name>B</name>
+        <distance>85</distance>
+        <ontrue>164d45ff-b8eb-4dca-83a3-23f20df1db65</ontrue>
+      </choice>
+      <choice expression="[Data1] &lt; 80 AND&#xA;[Data1] &gt;= 70">
+        <name>C</name>
+        <distance>127.5</distance>
+        <ontrue>4fa64467-24e6-42c1-a593-1400fc71769d</ontrue>
+      </choice>
+      <choice expression="[Data1] &lt; 70 AND&#xA;[Data1] &gt;= 60&#xA;">
+        <name>D</name>
+        <distance>170</distance>
+        <ontrue>10006652-92e9-480e-afd7-b15b64edaf56</ontrue>
+      </choice>
+      <choice expression="[Data1] &lt; 60 AND &#xA;[Data1] &gt;= 50">
+        <name>E</name>
+        <distance>212.5</distance>
+        <ontrue>7aab665b-1b32-4682-be9a-5ab3b7c56dfc</ontrue>
+      </choice>
+    </choices>
+  </stage>
+  <stage stageid="b4262e9a-fc40-4691-9688-0c9d2fffbe32" name="Fail" type="ChoiceEnd">
+    <subsheetid>157112f6-170b-45ed-a358-3cf6d93003a3</subsheetid>
+    <loginhibit />
+    <display x="0" y="90" />
+    <onsuccess>e5b242f3-2bbc-463d-8442-a1a405365f75</onsuccess>
+    <groupid>f6822713-9da9-4795-bbf3-fc8bfd093806</groupid>
+  </stage>
+  <stage stageid="37405ea8-c9e0-41c0-b899-5ca1d3976403" name="Data1" type="Data">
+    <subsheetid>157112f6-170b-45ed-a358-3cf6d93003a3</subsheetid>
+    <loginhibit />
+    <display x="-75" y="-165" />
+    <datatype>number</datatype>
+    <initialvalue>91</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="40bc14e6-5000-4efa-8a6b-e5c120d1ff7e" name="Grade" type="Data">
+    <subsheetid>157112f6-170b-45ed-a358-3cf6d93003a3</subsheetid>
+    <loginhibit />
+    <display x="465" y="-60" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="25ed6a1e-3af2-4b40-a437-efa204f69f3c" name="Calc1" type="Calculation">
+    <subsheetid>157112f6-170b-45ed-a358-3cf6d93003a3</subsheetid>
+    <loginhibit />
+    <display x="210" y="-135" />
+    <onsuccess>aa48f77f-defd-41bb-995a-51b02a6949c7</onsuccess>
+    <calculation expression="&quot;A&quot;" stage="Grade" />
+  </stage>
+  <stage stageid="164d45ff-b8eb-4dca-83a3-23f20df1db65" name="Calc2" type="Calculation">
+    <subsheetid>157112f6-170b-45ed-a358-3cf6d93003a3</subsheetid>
+    <loginhibit />
+    <display x="210" y="-90" />
+    <onsuccess>aa48f77f-defd-41bb-995a-51b02a6949c7</onsuccess>
+    <calculation expression="&quot;B&quot;" stage="Grade" />
+  </stage>
+  <stage stageid="4fa64467-24e6-42c1-a593-1400fc71769d" name="Calc1" type="Calculation">
+    <subsheetid>157112f6-170b-45ed-a358-3cf6d93003a3</subsheetid>
+    <loginhibit />
+    <display x="210" y="-45" />
+    <onsuccess>aa48f77f-defd-41bb-995a-51b02a6949c7</onsuccess>
+    <calculation expression="&quot;C&quot;" stage="Grade" />
+  </stage>
+  <stage stageid="10006652-92e9-480e-afd7-b15b64edaf56" name="Calc2" type="Calculation">
+    <subsheetid>157112f6-170b-45ed-a358-3cf6d93003a3</subsheetid>
+    <loginhibit />
+    <display x="210" y="0" />
+    <onsuccess>aa48f77f-defd-41bb-995a-51b02a6949c7</onsuccess>
+    <calculation expression="&quot;D&quot;&#xA;" stage="Grade" />
+  </stage>
+  <stage stageid="7aab665b-1b32-4682-be9a-5ab3b7c56dfc" name="Calc3" type="Calculation">
+    <subsheetid>157112f6-170b-45ed-a358-3cf6d93003a3</subsheetid>
+    <loginhibit />
+    <display x="210" y="45" />
+    <onsuccess>aa48f77f-defd-41bb-995a-51b02a6949c7</onsuccess>
+    <calculation expression="&quot;E&quot;" stage="Grade" />
+  </stage>
+  <stage stageid="e5b242f3-2bbc-463d-8442-a1a405365f75" name="Calc4" type="Calculation">
+    <subsheetid>157112f6-170b-45ed-a358-3cf6d93003a3</subsheetid>
+    <loginhibit />
+    <display x="210" y="90" />
+    <onsuccess>aa48f77f-defd-41bb-995a-51b02a6949c7</onsuccess>
+    <calculation expression="&quot;Fail&quot;&#xA;" stage="Grade" />
+  </stage>
+  <stage stageid="39e2453d-0289-4f53-a366-18dd73c2b178" name="Multi1" type="MultipleCalculation">
+    <subsheetid>157112f6-170b-45ed-a358-3cf6d93003a3</subsheetid>
+    <loginhibit />
+    <display x="555" y="-30" />
+    <steps>
+      <calculation expression="&quot;A&quot;" stage="Grade" />
+      <calculation expression="&quot;B&quot;" stage="Grade" />
+      <calculation expression="&quot;C&quot;" stage="Grade" />
+      <calculation expression="&quot;D&quot;" stage="Grade" />
+      <calculation expression="&quot;E&quot;" stage="Grade" />
+      <calculation expression="&quot;Fail&quot;" stage="Grade" />
+    </steps>
+  </stage>
+</process>
