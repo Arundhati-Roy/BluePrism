@@ -1,0 +1,194 @@
+﻿<process name="Fetch Mail" version="1.0" bpversion="6.9.0.26970" narrative="Fetches mail" byrefcollection="true" type="object" runmode="Exclusive" preferredid="b55aa8af-c3dc-4bfb-bd4d-78e1ca4854a8">
+  <appdef>
+    <element name="Fetch Mail">
+      <id>8c1e6db8-632d-439b-8601-0311929542d2</id>
+      <group name="Element1">
+        <id>5ea11313-a4fe-4cee-aa58-5758d2208a05</id>
+      </group>
+      <type>Application</type>
+      <basetype>Application</basetype>
+      <datatype>unknown</datatype>
+      <diagnose>False</diagnose>
+    </element>
+    <apptypeinfo>
+      <id>BrowserLaunch</id>
+      <parameters>
+        <parameter>
+          <name>Path</name>
+          <value>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</value>
+        </parameter>
+        <parameter>
+          <name>CommandLineParams</name>
+          <value>https://mail.google.com/mail/u/1/#inbox</value>
+        </parameter>
+        <parameter>
+          <name>ProcessMode</name>
+          <value>Internal</value>
+        </parameter>
+        <parameter>
+          <name>ExternalProcessTimeout</name>
+          <value>0</value>
+        </parameter>
+      </parameters>
+    </apptypeinfo>
+  </appdef>
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="b2a76644-2d60-4619-ad3b-0ee42fcc983a" type="CleanUp" published="True">
+    <name>Clean Up</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="85d8a78d-334f-40b2-b582-431aadf1d58c" type="Normal" published="True">
+    <name>Action 1</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>-39</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="4c96a21f-2b26-48cf-bd06-9eb56197cd09" name="Start" type="Start">
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>ec5b7a06-6f43-488b-9044-994e3edc7f1a</onsuccess>
+  </stage>
+  <stage stageid="ec5b7a06-6f43-488b-9044-994e3edc7f1a" name="End" type="End">
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="e32337aa-6103-4351-b673-3f321b0b0919" name="Stage1" type="ProcessInfo">
+    <display x="-195" y="-105" w="150" h="90" />
+    <references>
+      <reference>System.dll</reference>
+      <reference>System.Data.dll</reference>
+      <reference>System.Xml.dll</reference>
+      <reference>System.Drawing.dll</reference>
+    </references>
+    <imports>
+      <import>System</import>
+      <import>System.Drawing</import>
+      <import>System.Data</import>
+    </imports>
+    <language>visualbasic</language>
+    <globalcode><![CDATA[]]></globalcode>
+    <code><![CDATA[]]></code>
+  </stage>
+  <stage stageid="a933b0a3-e90c-4392-ad41-1eb33b654e7c" name="Clean Up" type="SubSheetInfo">
+    <subsheetid>b2a76644-2d60-4619-ad3b-0ee42fcc983a</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="7a95140b-3c29-44b4-aa15-dfdccaeaf59a" name="Start" type="Start">
+    <subsheetid>b2a76644-2d60-4619-ad3b-0ee42fcc983a</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>d879c785-1531-41fe-a26a-4a992efb2b4e</onsuccess>
+  </stage>
+  <stage stageid="d879c785-1531-41fe-a26a-4a992efb2b4e" name="End" type="End">
+    <subsheetid>b2a76644-2d60-4619-ad3b-0ee42fcc983a</subsheetid>
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="31793703-f717-4e9b-b1fb-e0d8f694576d" name="Action 1" type="SubSheetInfo">
+    <subsheetid>85d8a78d-334f-40b2-b582-431aadf1d58c</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="822b820f-f714-46b1-b9cb-1e403ed88abd" name="Start" type="Start">
+    <subsheetid>85d8a78d-334f-40b2-b582-431aadf1d58c</subsheetid>
+    <loginhibit />
+    <display x="15" y="-165" />
+    <onsuccess>d5bb83a1-1707-4bb9-b7d1-a69baf7b809b</onsuccess>
+  </stage>
+  <stage stageid="5c8680a9-24dc-491f-882f-37dd88a273d5" name="End" type="End">
+    <subsheetid>85d8a78d-334f-40b2-b582-431aadf1d58c</subsheetid>
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="9caab5f0-1ffa-49ea-84fa-81017f45b5d4" name="" type="Note">
+    <subsheetid>b2a76644-2d60-4619-ad3b-0ee42fcc983a</subsheetid>
+    <narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative>
+    <display x="-180" y="60" w="180" h="230" />
+  </stage>
+  <stage stageid="a3765213-bdd8-424c-81a6-e2d58c67d193" name="" type="Note">
+    <narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
+    <display x="-180" y="60" w="180" h="230" />
+  </stage>
+  <stage stageid="35726c36-5886-4ce3-91d1-5ee1d098f639" name="OG_SMTP::List Messages" type="Action">
+    <subsheetid>85d8a78d-334f-40b2-b582-431aadf1d58c</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="15" y="-15" />
+    <outputs>
+      <output type="collection" name="Emails" friendlyname="Emails" stage="Emails" />
+    </outputs>
+    <onsuccess>5c8680a9-24dc-491f-882f-37dd88a273d5</onsuccess>
+    <resource object="OG_SMTP" action="List Messages" />
+  </stage>
+  <stage stageid="eda12e31-8b7d-408c-822a-87a9f778ba1e" name="Email ID" type="Data">
+    <subsheetid>85d8a78d-334f-40b2-b582-431aadf1d58c</subsheetid>
+    <loginhibit />
+    <display x="195" y="-75" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">arundhati.roy1998@gmail.com</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="0ba255c1-63b3-4660-8a5b-aa146389f3db" name="Password" type="Data">
+    <subsheetid>85d8a78d-334f-40b2-b582-431aadf1d58c</subsheetid>
+    <loginhibit />
+    <display x="270" y="-75" />
+    <datatype>password</datatype>
+    <initialvalueenc>12,0,25,93,20,116,68,87,113,66</initialvalueenc>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="d5bb83a1-1707-4bb9-b7d1-a69baf7b809b" name="OG_SMTP::Configure" type="Action">
+    <subsheetid>85d8a78d-334f-40b2-b582-431aadf1d58c</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="15" y="-75" />
+    <inputs>
+      <input type="text" name="Username" friendlyname="Username" narrative="The POP3 and SMTP Username" expr="[Email ID]" />
+      <input type="password" name="Password" friendlyname="Password" narrative="The POP3 and SMTP Password" expr="[Password]" />
+      <input type="text" name="POP3 Server" friendlyname="POP3 Server" narrative="The POP3 Server address e.g. pop.domain.com" expr="&quot;pop.gmail.com&quot;" />
+      <input type="text" name="SMTP Server" friendlyname="SMTP Server" narrative="The SMTP Server address e.g. smtp.domain.com" expr="&quot;smtp.gmail.com&quot;" />
+      <input type="number" name="POP3 Port" friendlyname="POP3 Port" narrative="The POP3 Port, e.g. 110 or 995" expr="995" />
+      <input type="number" name="SMTP Port" friendlyname="SMTP Port" narrative="The SMTP Port, e.g 25 or 465" expr="587" />
+      <input type="flag" name="POP3 UseSSL" friendlyname="POP3 UseSSL" narrative="Whether to use SSL for POP3" expr="True" />
+      <input type="flag" name="SMTP UseSSL" friendlyname="SMTP UseSSL" narrative="Whether to use SSL for SMTP" expr="True" />
+    </inputs>
+    <onsuccess>35726c36-5886-4ce3-91d1-5ee1d098f639</onsuccess>
+    <resource object="OG_SMTP" action="Configure" />
+  </stage>
+  <stage stageid="66332bcf-b123-46c7-a38e-c22881e7e734" name="Emails" type="Collection">
+    <subsheetid>85d8a78d-334f-40b2-b582-431aadf1d58c</subsheetid>
+    <display x="195" y="-15" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+    <collectioninfo>
+      <field name="Subject" type="text" description="The subject of the email." />
+      <field name="From Name" type="text" description="The name of the sender." />
+      <field name="From Address" type="text" description="The email address of the sender." />
+      <field name="Date Sent" type="datetime" description="The date and time at which the email was sent." />
+      <field name="MessageID" type="text" description="The ID of the email message." />
+    </collectioninfo>
+  </stage>
+</process>

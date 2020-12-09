@@ -1,0 +1,37 @@
+﻿<process name="Amazon Data" version="1.0" bpversion="6.9.0.26970" narrative="Amazon Scrap" byrefcollection="true" preferredid="97e6ac57-f96a-4093-bb67-53733c39a861" published="true">
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <stage stageid="13ff6682-4f4f-464a-b755-795b71f0f6ea" name="Start" type="Start">
+    <display x="15" y="-105" />
+    <onsuccess>92345e97-e912-45b1-94e3-74c81acf6cb6</onsuccess>
+  </stage>
+  <stage stageid="0a9d8da6-b188-4e40-b879-ef7484ebc9e9" name="End" type="End">
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="44b9b3d7-911d-40de-8a0e-29b67795f0c2" name="Stage1" type="ProcessInfo">
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="92345e97-e912-45b1-94e3-74c81acf6cb6" name="Scrap Amazon Data::Launch" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="15" y="-60" />
+    <onsuccess>2a46ef7b-394d-4d0e-86e2-0b012d861132</onsuccess>
+    <resource object="Scrap Amazon Data" action="Launch" />
+  </stage>
+  <stage stageid="2a46ef7b-394d-4d0e-86e2-0b012d861132" name="Scrap Amazon Data::Search" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="15" y="-15" />
+    <onsuccess>c3fa9553-9059-4fac-b64f-6649bb5d2372</onsuccess>
+    <resource object="Scrap Amazon Data" action="Search" />
+  </stage>
+  <stage stageid="c3fa9553-9059-4fac-b64f-6649bb5d2372" name="Scrap Amazon Data::Read" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="15" y="30" />
+    <onsuccess>0a9d8da6-b188-4e40-b879-ef7484ebc9e9</onsuccess>
+    <resource object="Scrap Amazon Data" action="Read" />
+  </stage>
+</process>
